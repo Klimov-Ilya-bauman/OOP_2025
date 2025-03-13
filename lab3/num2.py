@@ -4,7 +4,7 @@ from pygame.draw import *
 pygame.init()
 
 FPS = 30
-screen = pygame.display.set_mode((600, 800))
+screen = pygame.display.set_mode((600, 1000))
 
 
 def draw_window(x, y, size_X, size_Y):
@@ -179,26 +179,17 @@ rect(screen, (85, 68, 0), (0, 0, 600, 400))
 
 draw_window(400, 55, 180, 240)
 
-draw_window(130, 55, 180, 240)
 
-draw_window(-140, 55, 180, 240)
 
-draw_a_cat(225, 560, 300, 100, 108, 93, 83, 42, 212, 255, 0)
-draw_a_cat(150, 750, 100, 30, 108, 93, 83, 42, 212, 255, 0)
-draw_a_cat(490, 750, 100, 30, 108, 93, 83, 42, 212, 255, 1)
 
-draw_a_cat(300, 420, 300, 100, 200, 113, 55, 156, 208, 19, 1)
-draw_a_cat(350, 680, 100, 30, 200, 113, 55, 156, 208, 19, 1)
-draw_a_cat(120, 450, 100, 30, 200, 113, 55, 156, 208, 19, 0)
-draw_a_cat(540, 590, 100, 30, 200, 113, 55, 156, 208, 19, 0)
 
-ball(180, 455, 20, 0)
-ball(150, 710, 18, 0)
-ball(270, 730, 55, 0)
-ball(415, 760, 18, 0)
-ball(495, 700, 37, 1)
+
+
+draw_a_cat(100, 420, 700, 100, 200, 113, 55, 156, 208, 19, 1)
+
+
 ball(380, 620, 37, 1)
-ball(460, 575, 18, 1)
+
 
 pygame.display.update()
 clock = pygame.time.Clock()
